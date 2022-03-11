@@ -3,14 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 void main() {
-  runApp(const LoginUiApp());
+  runApp(LoginUiApp());
 }
 
 class LoginUiApp extends StatelessWidget {
   final Color _primaryColor = HexColor('#DC54FE');
   final Color _accentColor = HexColor('#8A02AE');
-
-  const LoginUiApp({Key? key}) : super(key: key);
 
   // Design color
   // Color _primaryColor= HexColor('#FFC867');
